@@ -1,10 +1,10 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Button, Toast, ToastContentProps } from '@denidev-ignite-ui/react'
+import { Button, Toast, ToastProviderProps } from '@denidev-ignite-ui/react'
 import { useState } from 'react'
 
 export default {
   title: 'Data display/Toast',
-  component: Toast.Content,
+  component: Toast.Provider,
 
   args: {},
   argTypes: {},
@@ -24,6 +24,6 @@ export default {
       )
     },
   ],
-} as Meta<ToastContentProps>
+} as Meta<ToastProviderProps>
 
-export const Primary: StoryObj<ToastContentProps> = {}
+export const Primary: StoryObj<ToastProviderProps> = {}
