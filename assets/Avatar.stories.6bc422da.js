@@ -1,0 +1,2 @@
+import{A as t}from"./index.8812fa7b.js";import"./index.59dd52d8.js";import"./iframe.e0f8644d.js";import"./index.8c5401d8.js";import"./jsx-runtime.b67215c0.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/denidev35.png",alt:"Denilson Silva"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},n=["Primary","WithFallback"];export{p as Primary,c as WithFallback,n as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.6bc422da.js.map
